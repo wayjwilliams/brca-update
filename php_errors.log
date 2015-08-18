@@ -259,3 +259,236 @@ Stack trace:
 [18-Aug-2015 02:19:50 UTC] PHP   4. dynamo_revImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
 [18-Aug-2015 02:19:50 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:638
 [18-Aug-2015 02:19:50 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 02:27:29 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 02:27:29 UTC] PHP Stack trace:
+[18-Aug-2015 02:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:27:29 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:27:29 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:620
+[18-Aug-2015 02:27:29 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 02:27:29 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 02:27:29 UTC] PHP Stack trace:
+[18-Aug-2015 02:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:27:29 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:27:29 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 02:27:29 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 02:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 02:27:29 UTC] PHP Stack trace:
+[18-Aug-2015 02:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:27:29 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:27:29 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 02:27:29 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 02:27:29 UTC] PHP Stack trace:
+[18-Aug-2015 02:27:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:27:29 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:27:29 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:27:29 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:623
+[18-Aug-2015 02:27:29 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 02:32:00 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 02:32:00 UTC] PHP Stack trace:
+[18-Aug-2015 02:32:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:32:00 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:32:00 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:00 UTC] PHP   4. dynamo_revImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:00 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:638
+[18-Aug-2015 02:32:00 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 02:32:11 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 02:32:11 UTC] PHP Stack trace:
+[18-Aug-2015 02:32:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:32:11 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:32:11 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:11 UTC] PHP   4. dynamo_optionsImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:11 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:604
+[18-Aug-2015 02:32:11 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 02:32:32 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 02:32:32 UTC] PHP Stack trace:
+[18-Aug-2015 02:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:32:32 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:32:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:32 UTC] PHP   4. dynamo_widgetsImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:32 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:588
+[18-Aug-2015 02:32:32 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 02:32:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 02:32:32 UTC] PHP Stack trace:
+[18-Aug-2015 02:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:32:32 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:32:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:32 UTC] PHP   4. dynamo_widgetsImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:32:32 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:588
+[18-Aug-2015 02:35:27 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 02:35:27 UTC] PHP Stack trace:
+[18-Aug-2015 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:35:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:35:27 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:620
+[18-Aug-2015 02:35:27 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 02:35:27 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 02:35:27 UTC] PHP Stack trace:
+[18-Aug-2015 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:35:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:35:27 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 02:35:27 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 02:35:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 02:35:27 UTC] PHP Stack trace:
+[18-Aug-2015 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:35:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:35:27 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 02:35:27 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 02:35:27 UTC] PHP Stack trace:
+[18-Aug-2015 02:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:35:27 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:35:27 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:35:27 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:623
+[18-Aug-2015 02:35:27 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/blend_theme/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 02:51:33 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 02:51:33 UTC] PHP Stack trace:
+[18-Aug-2015 02:51:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:51:33 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:51:33 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:33 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:33 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:620
+[18-Aug-2015 02:51:33 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 02:51:34 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 02:51:34 UTC] PHP Stack trace:
+[18-Aug-2015 02:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:51:34 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:51:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:34 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:34 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 02:51:34 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 02:51:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 02:51:34 UTC] PHP Stack trace:
+[18-Aug-2015 02:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:51:34 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:51:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:34 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:34 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 02:51:34 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 02:51:34 UTC] PHP Stack trace:
+[18-Aug-2015 02:51:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:51:34 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:51:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:34 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:51:34 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:623
+[18-Aug-2015 02:51:34 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 02:53:34 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 02:53:34 UTC] PHP Stack trace:
+[18-Aug-2015 02:53:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 02:53:34 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 02:53:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:53:34 UTC] PHP   4. dynamo_revImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 02:53:34 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:638
+[18-Aug-2015 02:53:34 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 03:09:22 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 03:09:22 UTC] PHP Stack trace:
+[18-Aug-2015 03:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:09:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:09:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:620
+[18-Aug-2015 03:09:22 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 03:09:22 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 03:09:22 UTC] PHP Stack trace:
+[18-Aug-2015 03:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:09:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:09:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 03:09:22 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 03:09:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 03:09:22 UTC] PHP Stack trace:
+[18-Aug-2015 03:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:09:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:09:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 03:09:22 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 03:09:22 UTC] PHP Stack trace:
+[18-Aug-2015 03:09:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:09:22 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:09:22 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:09:22 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:623
+[18-Aug-2015 03:09:22 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 03:12:19 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 03:12:19 UTC] PHP Stack trace:
+[18-Aug-2015 03:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:12:19 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:12:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:620
+[18-Aug-2015 03:12:19 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 03:12:19 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 03:12:19 UTC] PHP Stack trace:
+[18-Aug-2015 03:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:12:19 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:12:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 03:12:19 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 03:12:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 03:12:19 UTC] PHP Stack trace:
+[18-Aug-2015 03:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:12:19 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:12:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 03:12:19 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 03:12:19 UTC] PHP Stack trace:
+[18-Aug-2015 03:12:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:12:19 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:12:19 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:12:19 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:623
+[18-Aug-2015 03:12:19 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 03:51:23 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/options.json): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 209
+[18-Aug-2015 03:51:23 UTC] PHP Stack trace:
+[18-Aug-2015 03:51:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:51:23 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:51:23 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:23 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:23 UTC] PHP   5. Dynamo_Import->import_options() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:620
+[18-Aug-2015 03:51:23 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:209
+[18-Aug-2015 03:51:24 UTC] PHP Warning:  file_get_contents(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1/widgets.wie): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 60
+[18-Aug-2015 03:51:24 UTC] PHP Stack trace:
+[18-Aug-2015 03:51:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:51:24 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:51:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:24 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:24 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 03:51:24 UTC] PHP   6. file_get_contents() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:60
+[18-Aug-2015 03:51:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 71
+[18-Aug-2015 03:51:24 UTC] PHP Stack trace:
+[18-Aug-2015 03:51:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:51:24 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:51:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:24 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:24 UTC] PHP   5. Dynamo_Import->import_widgets() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:621
+[18-Aug-2015 03:51:24 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 03:51:24 UTC] PHP Stack trace:
+[18-Aug-2015 03:51:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:51:24 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:51:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:24 UTC] PHP   4. dynamo_otherImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:51:24 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:623
+[18-Aug-2015 03:51:24 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
+[18-Aug-2015 03:53:30 UTC] PHP Warning:  opendir(/home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/files/blend1//revsliders): failed to open dir: No such file or directory in /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php on line 223
+[18-Aug-2015 03:53:30 UTC] PHP Stack trace:
+[18-Aug-2015 03:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Aug-2015 03:53:30 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:86
+[18-Aug-2015 03:53:30 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:496}() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:53:30 UTC] PHP   4. dynamo_revImport() /home/ubuntu/workspace/wp-includes/plugin.php:496
+[18-Aug-2015 03:53:30 UTC] PHP   5. Dynamo_Import->import_revsliders() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:638
+[18-Aug-2015 03:53:30 UTC] PHP   6. opendir() /home/ubuntu/workspace/wp-content/themes/dp_blend/dynamo_framework/import/dynamo-demo-import.php:223
