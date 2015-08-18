@@ -7,16 +7,12 @@
 .paspartu-enabled .paspartu-bottom {
   background-color: #ffffff !important;
 }
-#dp-head.top-navigation a.imageLogo img {
-  width: 134px !important;
-  height: 28px !important;
-}
 #dp-head.top-navigation a.imageLogo {
   margin-top: 40px;
   margin-bottom: 10px;
 }
 .dp-sticky-navigation-wrapper #dp-head.top-navigation a.imageLogo {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .aside-logo {
   width: px !important;
@@ -25,31 +21,31 @@
 body,
 article > .content {
   font-size: 13.5px;
-  color: #777777;
+  color: #555555;
 }
 h1 {
   font-size: 36px;
-  color: #3a3a3a;
+  color: #666666;
 }
 h2 {
   font-size: 30px;
-  color: #3a3a3a;
+  color: #666666;
 }
 h3 {
   font-size: 24px;
-  color: #3a3a3a;
+  color: #666666;
 }
 h4 {
   font-size: 18px;
-  color: #3a3a3a;
+  color: #666666;
 }
 h5 {
   font-size: 14px;
-  color: #3a3a3a;
+  color: #666666;
 }
 h6 {
   font-size: 12px;
-  color: #3a3a3a;
+  color: #666666;
 }
 #dp-top-bar {
   background: #000000;
@@ -173,36 +169,36 @@ h6 {
 .sf-menu ul li a,
 .sf-menu ul ul li a,
 .sf-menu ul ul ul li a {
-  color: #999999 !important;
+  color: #AFB4B9 !important;
 }
 .sf-menu ul li a:hover,
 .sf-menu ul ul li a:hover,
 .sf-menu ul ul ul li a:hover {
-  color: #3296dc !important;
-  background-color: #ffffff;
+  color: #AFB4B9 !important;
+  background-color: #F6F6F6;
 }
 .sf-menu ul li a.column-header:hover,
 .sf-menu ul ul li a.column-header:hover,
 .sf-menu ul ul ul li a.column-header:hover {
-  color: #999999 !important;
+  color: #AFB4B9 !important;
 }
 .headline.big-centered h3:after {
   background-color: #3296dc;
 }
 .dp-subheader-wraper {
-  background-color: #c5c5c5;
+  background-color: #f6f6f6;
 }
 .dp-subheader .main-title,
 .dp-subheader .sub-title,
 .dp-subheader .dp-breadcrumbs a,
 .dp-subheader .dp-breadcrumbs span {
-  color: #ffffff;
+  color: #666666;
 }
 .dp-page-wrap {
-  color: #777777;
+  color: #555555;
 }
 .dp-page-wrap .dp-nsp-text {
-  color: #777777;
+  color: #555555;
 }
 .dp-page-wrap .dp-recent-post-widget a,
 .dp-page-wrap .widget_dp_comments a,
@@ -711,16 +707,16 @@ table.cart a.remove,
   border-color: #3296dc !important;
 }
 .accent-color-2 {
-  color: #3c3c3c;
+  color: #000000;
 }
 .accent-bg-2 {
-  background-color: #3c3c3c;
+  background-color: #000000;
 }
 .accent-border-2 {
-  border-color: #3c3c3c;
+  border-color: #000000;
 }
 .button_dp.line-dark {
-  border: 1px solid #3c3c3c;
+  border: 1px solid #000000;
 }
 .btn:hover,
 .btn:active,
@@ -741,7 +737,7 @@ a.dp-button:active,
 a.dp-button.active,
 a.dp-button.disabled,
 a.dp-button[disabled] {
-  background-color: #3c3c3c !important;
+  background-color: #000000 !important;
 }
 .btn:active,
 .btn.active,
@@ -750,19 +746,19 @@ a.dp-button:active,
 a.dp-button.active
 input[type=button]:active,
 input[type=submit]:active {
-  background-color: #3c3c3c;
+  background-color: #000000;
 }
 .button_dp:hover {
-  background-color: #3c3c3c;
-  border-color: #3c3c3c;
+  background-color: #000000;
+  border-color: #000000;
 }
 .button_dp.color:hover {
-  background-color: #3c3c3c;
-  border-color: #3c3c3c;
+  background-color: #000000;
+  border-color: #000000;
 }
 .button_dp.dark {
-  background-color: #3c3c3c;
-  border-color: #3c3c3c;
+  background-color: #000000;
+  border-color: #000000;
 }
 .button_dp.black:hover,
 .button_dp.pink:hover,
@@ -774,37 +770,37 @@ input[type=submit]:active {
 .button_dp.purple:hover,
 .button_dp.coffee:hover,
 .button_dp.blue:hover {
-  background-color: #3c3c3c;
-  border-color: #3c3c3c;
+  background-color: #000000;
+  border-color: #000000;
 }
 .button_dp.line-dark span {
-  color: #3c3c3c;
+  color: #000000;
 }
 .button:hover {
-  background: #3c3c3c;
+  background: #000000;
 }
 body div.pp_default a.pp_next:hover,
 body div.pp_default a.pp_previous:hover {
-  background-color: #3c3c3c !important;
+  background-color: #000000 !important;
 }
 span.price {
-  color: #3c3c3c;
+  color: #000000;
 }
 .dp-product-desc .separate {
-  background-color: #3c3c3c;
+  background-color: #000000;
 }
 .product-compare a,
 .product-wishlist a {
-  background-color: #3c3c3c;
+  background-color: #000000;
 }
 .toggleList:hover,
 .toggleGrid:hover,
 .toggleList.active,
 .toggleGrid.active {
-  color: #3c3c3c;
+  color: #000000;
 }
 .yith-woocompare-widget .clear-all {
-  background-color: #3c3c3c;
+  background-color: #000000;
 }
 .wpb_tabs .wpb_tabs_nav .ui-tabs-active a {
   background-color: #3296dc !important;
