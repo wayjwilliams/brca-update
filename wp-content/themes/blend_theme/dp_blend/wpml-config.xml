@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="blend_seo_description" />
+        <key name="blend_seo_blogname" />
+        <key name="blend_seo_homepage_desc_value" />
+        <key name="blend_seo_homepage_keywords_value" />
+    </admin-texts>   
+</wpml-config>
